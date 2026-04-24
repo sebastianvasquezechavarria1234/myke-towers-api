@@ -40,12 +40,30 @@ app.get('/canal', async (req, res) => {
     }
 });
 
-// Obtener lista de videos
+// Obtener lista de videos (Mejorado para traer más)
 app.get('/videos', async (req, res) => {
     try {
-        const r = await yts('Myke Towers');
-        res.json(r.videos);
+        // Buscamos específicamente videos del canal para obtener una lista más completa
+        const r = await yts({ query: 'Myke Towers', type: 'video' });
+        
+        // yt-search suele devolver unos 30-40 videos por búsqueda
+        // Si queremos más, podemos filtrar y limpiar la respuesta
+        const videos = r.videos.map(v => ({
+            id: v.videoId,
+            titulo: v.title,
+            vistas: v.views,
+            duracion: v.timestamp,
+            publicado: v.ago,
+            imagen: v.thumbnail,
+            url: v.url
+        }));
+
+        res.json({
+            total_encontrados: videos.length,
+            videos: videos
+        });
     } catch (error) {
+        console.error(error);
         res.status(500).json({ error: "Error al obtener videos" });
     }
 });
