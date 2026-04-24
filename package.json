@@ -3,6 +3,7 @@
     "axios": "^1.15.2",
     "cors": "^2.8.6",
     "express": "^5.2.1",
+    "node-cache": "^5.1.2",
     "yt-search": "^2.13.1"
   },
   "scripts": {
