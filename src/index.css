@@ -1,0 +1,62 @@
+*{
+  font-family: 'Popping';
+}
+
+/* ROOT */
+
+:root{
+  --green: #0fa;
+  --purple: #9c42f5;
+  --blue: #4579f5;
+}
+
+::selection{
+  background-color: var(--purple);
+  color: white;
+}
+
+/* GLOBALS */
+body{
+  background-color: #212429;
+  color: white;
+}
+
+h1{
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 70px;
+}
+
+h4{
+  font-size: 36px;
+}
+
+a, p{
+  font-size: 18px;
+  opacity: .8;
+}
+
+h1 .font-secundary{
+  font-family: 'Great-vibes';
+  font-weight: 300;
+  font-size: 5rem;
+  
+}
+
+.font-secundary{
+  font-family: 'Great-vibes' !important;
+}
+
+
+
+/* FONT PRIMARY */
+@font-face {
+  font-family: 'Popping';
+  src: url(./assets/font/Poppins-Light.ttf);
+}
+
+/* FONT SECUNDARY */
+@font-face {
+  font-family: 'Great-vibes';
+  src: url(./assets/font/Great_Vibes/GreatVibes-Regular.ttf);
+}

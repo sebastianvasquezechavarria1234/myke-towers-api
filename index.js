@@ -1,7 +1,7 @@
-const express = require('express');
-const yts = require('yt-search');
-const cors = require('cors');
-const NodeCache = require('node-cache');
+import express from 'express';
+import yts from 'yt-search';
+import cors from 'cors';
+import NodeCache from 'node-cache';
 
 const app = express();
 const cache = new NodeCache({ stdTTL: 3600 }); // Caché de 1 hora
@@ -134,6 +134,54 @@ app.get('/buscar', async (req, res) => {
     } catch (error) {
         res.status(500).json({ error: "Error en la búsqueda" });
     }
+});
+
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Helper function to read db
+const getDB = () => {
+    try {
+        const data = fs.readFileSync(path.join(__dirname, 'db.json'), 'utf8');
+        return JSON.parse(data);
+    } catch (err) {
+        console.error("Error reading db.json", err);
+        return { socialWall: [], discography: [] };
+    }
+};
+
+// 7. Social Posts (From db.json)
+app.get('/social', (req, res) => {
+    const db = getDB();
+    res.json(db.socialWall);
+});
+
+// 8. Albums (From db.json)
+app.get('/albums', (req, res) => {
+    const db = getDB();
+    res.json(db.discography);
+});
+
+// 9. Album Songs (Tracklist)
+app.get('/albums/:id/songs', (req, res) => {
+    const db = getDB();
+    const albumId = parseInt(req.params.id);
+    const album = db.discography.find(a => a.id === albumId);
+    
+    if (!album) {
+        return res.status(404).json({ error: "Álbum no encontrado" });
+    }
+    
+    res.json({
+        album: album.title,
+        year: album.year,
+        image: album.image,
+        tracklist: album.tracklist || []
+    });
 });
 
 app.listen(PORT, () => {
