@@ -2,6 +2,8 @@ import express from 'express';
 import yts from 'yt-search';
 import cors from 'cors';
 import NodeCache from 'node-cache';
+import axios from 'axios';
+
 
 const app = express();
 const cache = new NodeCache({ stdTTL: 3600 }); // Caché de 1 hora
@@ -39,7 +41,10 @@ app.get('/', (req, res) => {
             "/videos - Lista de videos (Caché)",
             "/buscar?q=... - Buscador dinámico",
             "/historia - Biografía y datos personales",
-            "/stats - Resumen de carrera"
+            "/stats - Resumen de carrera",
+            "/dynamic-albums - Álbumes reales (iTunes API)",
+            "/dynamic-albums/:id/songs - Canciones reales de un álbum"
+
         ]
     });
 });
@@ -183,6 +188,74 @@ app.get('/albums/:id/songs', (req, res) => {
         tracklist: album.tracklist || []
     });
 });
+
+// 10. Dynamic Albums (The "Best" Version: Robust, High-Res & Fallback)
+app.get('/dynamic-albums', async (req, res) => {
+    try {
+        const response = await axios.get('https://itunes.apple.com/search?term=Myke+Towers&entity=album&limit=200');
+        
+        console.log(`🔍 iTunes encontró ${response.data.results.length} resultados.`);
+
+        const albums = response.data.results
+            .filter(a => 
+                (a.artistName.toLowerCase().includes('myke towers') || a.collectionName.toLowerCase().includes('myke towers')) &&
+                a.trackCount > 1 // Bajamos el límite para ver si así aparecen todos
+            )
+            .map(a => ({
+                id: a.collectionId,
+                title: a.collectionName.replace(/\(Deluxe.*\)/i, '').trim(),
+                artist: a.artistName,
+                image: a.artworkUrl100.replace('100x100bb', '1000x1000bb'),
+                year: a.releaseDate.split('-')[0],
+                tracksCount: a.trackCount,
+                genre: a.primaryGenreName,
+                isReal: true
+            }))
+            .filter((album, index, self) =>
+                index === self.findIndex((t) => t.title === album.title)
+            )
+            .sort((a, b) => b.year - a.year);
+
+        res.json(albums);
+    } catch (error) {
+        console.log("⚠️ Error en la búsqueda, usando respaldo.");
+        const db = getDB();
+        res.json(db.discography);
+    }
+});
+
+
+
+
+// 11. Dynamic Album Tracks (Real data from iTunes)
+app.get('/dynamic-albums/:id/songs', async (req, res) => {
+    const { id } = req.params;
+    try {
+        const response = await axios.get(`https://itunes.apple.com/lookup?id=${id}&entity=song`);
+        const results = response.data.results;
+        
+        if (results.length === 0) return res.status(404).json({ error: "Álbum no encontrado" });
+
+        const albumInfo = results.find(r => r.wrapperType === 'collection');
+        const songs = results.filter(r => r.wrapperType === 'track').map(song => ({
+            track: song.trackNumber,
+            name: song.trackName,
+            duration: new Date(song.trackTimeMillis).toISOString().substr(14, 5),
+            preview: song.previewUrl
+        }));
+
+        res.json({
+            id: albumInfo.collectionId,
+            album: albumInfo.collectionName,
+            image: albumInfo.artworkUrl100.replace('100x100bb', '600x600bb'),
+            year: albumInfo.releaseDate.split('-')[0],
+            songs: songs
+        });
+    } catch (error) {
+        res.status(500).json({ error: "Error al obtener canciones del álbum" });
+    }
+});
+
 
 app.listen(PORT, () => {
     console.log(`🚀 API Pro de Myke Towers corriendo en puerto ${PORT}`);
