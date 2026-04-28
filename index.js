@@ -27,21 +27,34 @@ const getDB = () => {
     }
 };
 
+// --- DATOS (BIO Y STATS) ---
+const mykeInfo = {
+    nombre: "Myke Towers",
+    bio: "El 'Young King'. Líder del movimiento urbano global, de SoundCloud al estrellato mundial con una lírica impecable.",
+    stats: ["Top Global Spotify", "Multi-Platino", "Rey del Trap Latino"]
+};
+
 // --- ENDPOINTS ---
 
 // 1. Bienvenida
 app.get('/', (req, res) => {
     res.json({
-        mensaje: "Bienvenido a la API Maestro de Myke Towers",
-        version: "3.0.0",
-        descripción: "Datos locales ultra-rápidos y conexión dinámica a YouTube.",
-        endpoints: [
-            "/albums - Discografía completa (Local)",
-            "/albums/:id/songs - Canciones de un álbum",
-            "/videos - Videos más recientes (YouTube)",
-            "/canal - Estadísticas del canal",
-            "/social - Posts del muro social"
-        ]
+        mensaje: "API Maestro de Myke Towers",
+        endpoints: ["/albums", "/videos", "/canal", "/social", "/historia", "/stats"]
+    });
+});
+
+// 2. Biografía Corta
+app.get('/historia', (req, res) => {
+    res.json(mykeInfo);
+});
+
+// 3. Stats Directos
+app.get('/stats', (req, res) => {
+    res.json({
+        oyentes: "Top 50 Global",
+        hits: ["LALA", "Adivino", "Diosa"],
+        apodos: ["Young King", "La Pantera"]
     });
 });
 
