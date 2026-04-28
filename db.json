@@ -1,41 +1,19 @@
 {
   "socialWall": [
-    { 
-      "id": 1, 
-      "type": "ig", 
-      "url": "https://i.scdn.co/image/ab67616d0000b2734a9aae81e23c570d7b4317b7", 
-      "size": "col-span-2 row-span-2",
-      "caption": "La Pantera Negra out now 🐈‍⬛"
-    },
-    { 
-      "id": 2, 
-      "type": "ig", 
-      "url": "https://i.scdn.co/image/ab67616d0000b273b53c55981a52944af2a81402", 
-      "size": "col-span-1 row-span-1",
-      "caption": "Studio nights 🎙️"
-    },
-    { 
-      "id": 3, 
-      "type": "tt", 
-      "url": "https://i.scdn.co/image/ab67616d0000b27321e4c49d6401447a241b4654", 
-      "size": "col-span-1 row-span-1",
-      "caption": "Tour life 🌎"
-    },
-    { 
-      "id": 4, 
-      "type": "ig", 
-      "url": "https://i.scdn.co/image/ab67616d0000b2736f301e51689b7e61689b7e61", 
-      "size": "col-span-1 row-span-2",
-      "caption": "Young Kings lifestyle 👑"
-    },
-    { 
-      "id": 5, 
-      "type": "ig", 
-      "url": "https://i.scdn.co/image/ab67616d0000b273767c29796e624c7f763f6e6e", 
-      "size": "col-span-2 row-span-1",
-      "caption": "Island Boyz vibe 🌴"
-    }
+    { "id": 1, "type": "ig", "url": "https://i.pinimg.com/736x/c8/82/b5/c882b5d21466d0460c635b061bf481f1.jpg", "size": "col-span-2 row-span-2" },
+    { "id": 2, "type": "video", "url": "https://v1.pinimg.com/videos/mc/720p/cc/6d/b1/cc6db113712df9844b41e6e8072a2623.mp4", "size": "col-span-1 row-span-1" },
+    { "id": 3, "type": "ig", "url": "https://i.pinimg.com/1200x/30/cc/33/30cc33eeef3e44a6aa53e4106e44bf10.jpg", "size": "col-span-1 row-span-2" },
+    { "id": 4, "type": "ig", "url": "https://i.pinimg.com/1200x/6b/09/32/6b0932048bb94ec4a93ff03d9a4a19df.jpg", "size": "col-span-2 row-span-1" },
+    { "id":5, "type": "ig", "url": "https://i.pinimg.com/736x/19/1d/a8/191da8853f0d3ec2f4292409e903f3d1.jpg", "size": "col-span-1 row-span-1" },
+    { "id": 6, "type": "ig", "url": "https://i.pinimg.com/736x/21/f7/07/21f707918a8de6fede3f66ee239f4d2e.jpg", "size": "col-span-1 row-span-1" },
+    { "id": 7, "type": "ig", "url": "https://i.pinimg.com/736x/84/c3/9b/84c39bee5dcf89dc6718ab12b88542fa.jpg", "size": "col-span-2 row-span-2" },
+    { "id": 8, "type": "ig", "url": "https://i.pinimg.com/736x/0a/ce/90/0ace903aa205155c5e6af7769cb7bb79.jpg", "size": "col-span-1 row-span-1" },
+    { "id": 9, "type": "ig", "url": "https://i.pinimg.com/736x/72/38/34/723834b6d91aa164f5caa309efe1d90e.jpg", "size": "col-span-1 row-span-1" },
+    { "id": 10, "type": "ig", "url": "https://i.pinimg.com/736x/cf/ed/62/cfed62f18241816e64c96a6b7176288b.jpg", "size": "col-span-2 row-span-1" },
+    { "id": 11, "type": "ig", "url": "https://i.pinimg.com/736x/b7/88/24/b78824401bbf385f33e447848aa21fab.jpg", "size": "col-span-1 row-span-1" },
+    { "id": 12, "type": "ig", "url": "https://i.pinimg.com/736x/b3/5f/96/b35f96946e11915ec45672e0c18dd1f2.jpg", "size": "col-span-1 row-span-1" }
   ],
+
   "discography": [
     {
       "id": "island-boyz-2025",
@@ -209,37 +187,29 @@
       ]
     },
     {
-      "id": "lyke-mike-deluxe-2021",
-      "title": "Lyke Mike (Deluxe)",
-      "year": "2021",
+      "id": "lyke-mike-2-deluxe",
+      "title": "Lyke Mike 2 (Deluxe)",
+      "year": "2022",
       "format": "Álbum (Deluxe)",
+      "image": "https://cdn-images.dzcdn.net/images/cover/9b13a9a9de489eb98fde2f3dc8e9d08e/500x500-000000-80-0-0.jpg",
+      "color": "from-red-900",
+      "songsCount": 25,
+      "tracklist": [
+        { "track": 1, "name": "Mike 2 Intro", "duration": "03:20" },
+        { "track": 2, "name": "Young King Flow", "duration": "03:15" }
+      ]
+    },
+    {
+      "id": "lyke-mike-2",
+      "title": "Lyke Mike 2",
+      "year": "2022",
+      "format": "Álbum de Estudio",
       "image": "https://cdn-images.dzcdn.net/images/cover/9b13a9a9de489eb98fde2f3dc8e9d08e/500x500-000000-80-0-0.jpg",
       "color": "from-red-900",
       "songsCount": 23,
       "tracklist": [
-        { "track": 1, "name": "Mirenme Ahora", "duration": "03:20" },
-        { "track": 2, "name": "Burberry", "duration": "03:15" },
-        { "track": 3, "name": "Pin Pin", "duration": "03:30" },
-        { "track": 4, "name": "Malo", "duration": "03:50" },
-        { "track": 5, "name": "Tu y Yo", "duration": "03:10" },
-        { "track": 6, "name": "Sigue", "duration": "03:05" },
-        { "track": 7, "name": "Lo Invertí", "duration": "03:20" },
-        { "track": 8, "name": "Cuenta", "duration": "03:30" },
-        { "track": 9, "name": "Joven Leyenda", "duration": "03:15" },
-        { "track": 10, "name": "No Pueden", "duration": "02:50" },
-        { "track": 11, "name": "Sr. de los Cielos", "duration": "03:40" },
-        { "track": 12, "name": "Balas Locas", "duration": "03:05" },
-        { "track": 13, "name": "Cuando Me Ven", "duration": "03:20" },
-        { "track": 14, "name": "Confianza", "duration": "03:10" },
-        { "track": 15, "name": "No Salgo", "duration": "03:00" },
-        { "track": 16, "name": "Papa", "duration": "03:25" },
-        { "track": 17, "name": "Llego el Myke", "duration": "03:15" },
-        { "track": 18, "name": "Sincero", "duration": "03:40" },
-        { "track": 19, "name": "Mi Vicio", "duration": "03:05" },
-        { "track": 20, "name": "Rap", "duration": "03:30" },
-        { "track": 21, "name": "Toda la Noche", "duration": "03:20" },
-        { "track": 22, "name": "Un Solo", "duration": "03:15" },
-        { "track": 23, "name": "Mike", "duration": "03:50" }
+        { "track": 1, "name": "Mike 2 Intro", "duration": "03:20" },
+        { "track": 2, "name": "Young King Flow", "duration": "03:15" }
       ]
     },
     {
@@ -277,6 +247,21 @@
       ]
     },
     {
+      "id": "icy-hot-2021",
+      "title": "Icy Hot (EP)",
+      "year": "2021",
+      "format": "EP",
+      "image": "https://cdn-images.dzcdn.net/images/cover/b6921f7748c7d3b3f9fc3e2f0ea1f7cb/500x500-000000-80-0-0.jpg",
+      "color": "from-red-600",
+      "songsCount": 4,
+      "tracklist": [
+        { "track": 1, "name": "Hasta Abajo", "duration": "02:51" },
+        { "track": 2, "name": "El Dominio", "duration": "03:02" },
+        { "track": 3, "name": "Traduciendo", "duration": "03:39" },
+        { "track": 4, "name": "A Pesar de Todo", "duration": "03:54" }
+      ]
+    },
+    {
       "id": "easy-money-baby-2020",
       "title": "Easy Money Baby",
       "year": "2020",
@@ -306,18 +291,18 @@
       ]
     },
     {
-      "id": "icy-hot-2021",
-      "title": "Icy Hot (EP)",
-      "year": "2021",
+      "id": "para-mi-ex-2020",
+      "title": "Para Mi Ex (EP)",
+      "year": "2020",
       "format": "EP",
-      "image": "https://cdn-images.dzcdn.net/images/cover/b6921f7748c7d3b3f9fc3e2f0ea1f7cb/500x500-000000-80-0-0.jpg",
-      "color": "from-red-600",
+      "image": "https://cdn-images.dzcdn.net/images/cover/85e6d70fee66269844c5f849b97093cb/500x500-000000-80-0-0.jpg",
+      "color": "from-pink-600",
       "songsCount": 4,
       "tracklist": [
-        { "track": 1, "name": "Hasta Abajo", "duration": "02:51" },
-        { "track": 2, "name": "El Dominio", "duration": "03:02" },
-        { "track": 3, "name": "Traduciendo", "duration": "03:39" },
-        { "track": 4, "name": "A Pesar de Todo", "duration": "03:54" }
+        { "track": 1, "name": "Mi Ex", "duration": "03:07" },
+        { "track": 2, "name": "Explícito", "duration": "03:15" },
+        { "track": 3, "name": "Extasy", "duration": "03:07" },
+        { "track": 4, "name": "Bandido", "duration": "03:52" }
       ]
     },
     {
@@ -351,21 +336,6 @@
       ]
     },
     {
-      "id": "para-mi-ex-2020",
-      "title": "Para Mi Ex (EP)",
-      "year": "2020",
-      "format": "EP",
-      "image": "https://cdn-images.dzcdn.net/images/cover/85e6d70fee66269844c5f849b97093cb/500x500-000000-80-0-0.jpg",
-      "color": "from-pink-600",
-      "songsCount": 4,
-      "tracklist": [
-        { "track": 1, "name": "Mi Ex", "duration": "03:07" },
-        { "track": 2, "name": "Explícito", "duration": "03:15" },
-        { "track": 3, "name": "Extasy", "duration": "03:07" },
-        { "track": 4, "name": "Bandido", "duration": "03:52" }
-      ]
-    },
-    {
       "id": "final-del-principio-2016",
       "title": "El Final del Principio",
       "year": "2016",
@@ -388,4 +358,3 @@
     }
   ]
 }
-
