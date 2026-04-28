@@ -1,17 +1,49 @@
 {
   "socialWall": [
-    { "id": 1, "type": "ig", "url": "https://i.ytimg.com/vi/ioYRkD-rlG8/hq720.jpg", "size": "col-span-1 row-span-1" },
-    { "id": 2, "type": "tt", "url": "https://i.ytimg.com/vi/AeNv4kVHZuY/hq720.jpg", "size": "col-span-1 row-span-2" },
-    { "id": 3, "type": "ig", "url": "https://i.ytimg.com/vi/3rg0p23brQ0/hq720.jpg", "size": "col-span-2 row-span-1" }
+    { 
+      "id": 1, 
+      "type": "ig", 
+      "url": "https://i.scdn.co/image/ab67616d0000b2734a9aae81e23c570d7b4317b7", 
+      "size": "col-span-2 row-span-2",
+      "caption": "La Pantera Negra out now 🐈‍⬛"
+    },
+    { 
+      "id": 2, 
+      "type": "ig", 
+      "url": "https://i.scdn.co/image/ab67616d0000b273b53c55981a52944af2a81402", 
+      "size": "col-span-1 row-span-1",
+      "caption": "Studio nights 🎙️"
+    },
+    { 
+      "id": 3, 
+      "type": "tt", 
+      "url": "https://i.scdn.co/image/ab67616d0000b27321e4c49d6401447a241b4654", 
+      "size": "col-span-1 row-span-1",
+      "caption": "Tour life 🌎"
+    },
+    { 
+      "id": 4, 
+      "type": "ig", 
+      "url": "https://i.scdn.co/image/ab67616d0000b2736f301e51689b7e61689b7e61", 
+      "size": "col-span-1 row-span-2",
+      "caption": "Young Kings lifestyle 👑"
+    },
+    { 
+      "id": 5, 
+      "type": "ig", 
+      "url": "https://i.scdn.co/image/ab67616d0000b273767c29796e624c7f763f6e6e", 
+      "size": "col-span-2 row-span-1",
+      "caption": "Island Boyz vibe 🌴"
+    }
   ],
   "discography": [
     {
       "id": "island-boyz-2025",
       "title": "Island Boyz",
       "year": "2025",
-      "format": "Álbum colab.",
-      "image": "https://i.scdn.co/image/ab67616d0000b273767c29796e624c7f763f6e6e",
-      "color": "from-blue-500/80",
+      "format": "Álbum Colaborativo",
+      "image": "https://cdn-images.dzcdn.net/images/cover/a5a997623f133b22515b8fdf787a4514/500x500-000000-80-0-0.jpg",
+      "color": "from-blue-600",
       "songsCount": 23,
       "tracklist": [
         { "track": 1, "name": "La Despedida (feat. DFZM)", "duration": "03:41" },
@@ -40,13 +72,13 @@
       ]
     },
     {
-      "id": "pantera-negra-2024",
+      "id": "pantera-negra-deluxe-2024",
       "title": "La Pantera Negra (Deluxe)",
       "year": "2024",
       "format": "Álbum (Deluxe)",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734a9aae81e23c570d7b4317b7",
-      "color": "from-neutral-900/90",
-      "songsCount": 26,
+      "image": "https://cdn-images.dzcdn.net/images/cover/475ad5e5104e9619fd12da3eeebe8120/500x500-000000-80-0-0.jpg",
+      "color": "from-neutral-900",
+      "songsCount": 27,
       "tracklist": [
         { "track": 1, "name": "Competencia", "duration": "03:10" },
         { "track": 2, "name": "Otra Oportunidad", "duration": "02:49" },
@@ -78,12 +110,43 @@
       ]
     },
     {
+      "id": "pantera-negra-2024",
+      "title": "La Pantera Negra",
+      "year": "2024",
+      "format": "Álbum de Estudio",
+      "image": "https://cdn-images.dzcdn.net/images/cover/39cd3318716561b977da382c1422bd9b/500x500-000000-80-0-0.jpg",
+      "color": "from-neutral-900",
+      "songsCount": 20,
+      "tracklist": [
+        { "track": 1, "name": "Competencia", "duration": "03:10" },
+        { "track": 2, "name": "Otra Oportunidad", "duration": "02:49" },
+        { "track": 3, "name": "Mejor Así", "duration": "03:39" },
+        { "track": 4, "name": "También", "duration": "02:19" },
+        { "track": 5, "name": "Frío", "duration": "02:40" },
+        { "track": 6, "name": "Caché", "duration": "03:16" },
+        { "track": 7, "name": "Sexo Desenfrenado", "duration": "04:03" },
+        { "track": 8, "name": "La Primera Vez (feat. NTG)", "duration": "02:51" },
+        { "track": 9, "name": "Poder Adquisitivo", "duration": "03:01" },
+        { "track": 10, "name": "Gemidos", "duration": "03:34" },
+        { "track": 11, "name": "Espero Que Estés Bien", "duration": "02:53" },
+        { "track": 12, "name": "Hasta Luego", "duration": "03:02" },
+        { "track": 13, "name": "Compatibles", "duration": "03:07" },
+        { "track": 14, "name": "Se Te Nota (feat. Peso Pluma)", "duration": "03:10" },
+        { "track": 15, "name": "Adivino (con Bad Bunny)", "duration": "04:38" },
+        { "track": 16, "name": "En El Mar", "duration": "04:06" },
+        { "track": 17, "name": "Vamo a Darle (feat. Cosculluela)", "duration": "02:56" },
+        { "track": 18, "name": "Dinero y Fama (feat. Omar Montes)", "duration": "03:35" },
+        { "track": 19, "name": "Venenosa", "duration": "02:52" },
+        { "track": 20, "name": "Primer Día (feat. De La Ghetto, Maldy)", "duration": "03:58" }
+      ]
+    },
+    {
       "id": "vive-la-tuya-2023",
       "title": "LVEU: Vive la tuya...",
       "year": "2023",
       "format": "Álbum",
-      "image": "https://i.scdn.co/image/ab67616d0000b273853c55981a52944af2a81402",
-      "color": "from-cyan-800/80",
+      "image": "https://cdn-images.dzcdn.net/images/cover/afc1539c3fe20a2fed707ba72aacbb05/500x500-000000-80-0-0.jpg",
+      "color": "from-cyan-800",
       "songsCount": 23,
       "tracklist": [
         { "track": 1, "name": "OBVIO", "duration": "02:42" },
@@ -113,11 +176,11 @@
     },
     {
       "id": "la-vida-es-una-2023",
-      "title": "La Vida es Una",
+      "title": "La Vida Es Una",
       "year": "2023",
-      "format": "Álbum",
-      "image": "https://i.scdn.co/image/ab67616d0000b273b53c55981a52944af2a81402",
-      "color": "from-teal-800/80",
+      "format": "Álbum de Estudio",
+      "image": "https://cdn-images.dzcdn.net/images/cover/c9e44eae3791dd967caedc538696887b/500x500-000000-80-0-0.jpg",
+      "color": "from-teal-700",
       "songsCount": 23,
       "tracklist": [
         { "track": 1, "name": "VOODOO", "duration": "02:47" },
@@ -146,12 +209,109 @@
       ]
     },
     {
+      "id": "lyke-mike-deluxe-2021",
+      "title": "Lyke Mike (Deluxe)",
+      "year": "2021",
+      "format": "Álbum (Deluxe)",
+      "image": "https://cdn-images.dzcdn.net/images/cover/9b13a9a9de489eb98fde2f3dc8e9d08e/500x500-000000-80-0-0.jpg",
+      "color": "from-red-900",
+      "songsCount": 23,
+      "tracklist": [
+        { "track": 1, "name": "Mirenme Ahora", "duration": "03:20" },
+        { "track": 2, "name": "Burberry", "duration": "03:15" },
+        { "track": 3, "name": "Pin Pin", "duration": "03:30" },
+        { "track": 4, "name": "Malo", "duration": "03:50" },
+        { "track": 5, "name": "Tu y Yo", "duration": "03:10" },
+        { "track": 6, "name": "Sigue", "duration": "03:05" },
+        { "track": 7, "name": "Lo Invertí", "duration": "03:20" },
+        { "track": 8, "name": "Cuenta", "duration": "03:30" },
+        { "track": 9, "name": "Joven Leyenda", "duration": "03:15" },
+        { "track": 10, "name": "No Pueden", "duration": "02:50" },
+        { "track": 11, "name": "Sr. de los Cielos", "duration": "03:40" },
+        { "track": 12, "name": "Balas Locas", "duration": "03:05" },
+        { "track": 13, "name": "Cuando Me Ven", "duration": "03:20" },
+        { "track": 14, "name": "Confianza", "duration": "03:10" },
+        { "track": 15, "name": "No Salgo", "duration": "03:00" },
+        { "track": 16, "name": "Papa", "duration": "03:25" },
+        { "track": 17, "name": "Llego el Myke", "duration": "03:15" },
+        { "track": 18, "name": "Sincero", "duration": "03:40" },
+        { "track": 19, "name": "Mi Vicio", "duration": "03:05" },
+        { "track": 20, "name": "Rap", "duration": "03:30" },
+        { "track": 21, "name": "Toda la Noche", "duration": "03:20" },
+        { "track": 22, "name": "Un Solo", "duration": "03:15" },
+        { "track": 23, "name": "Mike", "duration": "03:50" }
+      ]
+    },
+    {
+      "id": "lyke-mike-2021",
+      "title": "Lyke Mike",
+      "year": "2021",
+      "format": "Álbum de Estudio",
+      "image": "https://cdn-images.dzcdn.net/images/cover/ae0915cad352581464d954b80f6fcc15/500x500-000000-80-0-0.jpg",
+      "color": "from-red-900",
+      "songsCount": 23,
+      "tracklist": [
+        { "track": 1, "name": "Mirenme Ahora", "duration": "03:20" },
+        { "track": 2, "name": "Burberry", "duration": "03:15" },
+        { "track": 3, "name": "Pin Pin", "duration": "03:30" },
+        { "track": 4, "name": "Malo", "duration": "03:50" },
+        { "track": 5, "name": "Tu y Yo", "duration": "03:10" },
+        { "track": 6, "name": "Sigue", "duration": "03:05" },
+        { "track": 7, "name": "Lo Invertí", "duration": "03:20" },
+        { "track": 8, "name": "Cuenta", "duration": "03:30" },
+        { "track": 9, "name": "Joven Leyenda", "duration": "03:15" },
+        { "track": 10, "name": "No Pueden", "duration": "02:50" },
+        { "track": 11, "name": "Sr. de los Cielos", "duration": "03:40" },
+        { "track": 12, "name": "Balas Locas", "duration": "03:05" },
+        { "track": 13, "name": "Cuando Me Ven", "duration": "03:20" },
+        { "track": 14, "name": "Confianza", "duration": "03:10" },
+        { "track": 15, "name": "No Salgo", "duration": "03:00" },
+        { "track": 16, "name": "Papa", "duration": "03:25" },
+        { "track": 17, "name": "Llego el Myke", "duration": "03:15" },
+        { "track": 18, "name": "Sincero", "duration": "03:40" },
+        { "track": 19, "name": "Mi Vicio", "duration": "03:05" },
+        { "track": 20, "name": "Rap", "duration": "03:30" },
+        { "track": 21, "name": "Toda la Noche", "duration": "03:20" },
+        { "track": 22, "name": "Un Solo", "duration": "03:15" },
+        { "track": 23, "name": "Mike", "duration": "03:50" }
+      ]
+    },
+    {
+      "id": "easy-money-baby-2020",
+      "title": "Easy Money Baby",
+      "year": "2020",
+      "format": "Álbum de Estudio",
+      "image": "https://cdn-images.dzcdn.net/images/cover/d9813d681dc888bc53c70349ca9315ba/500x500-000000-80-0-0.jpg",
+      "color": "from-yellow-600",
+      "songsCount": 18,
+      "tracklist": [
+        { "track": 1, "name": "Si Se Da", "duration": "03:45" },
+        { "track": 2, "name": "Diosa", "duration": "03:34" },
+        { "track": 3, "name": "Girl", "duration": "03:06" },
+        { "track": 4, "name": "Parceros", "duration": "03:20" },
+        { "track": 5, "name": "Funeral", "duration": "03:10" },
+        { "track": 6, "name": "Hechizada", "duration": "03:40" },
+        { "track": 7, "name": "Tú", "duration": "03:15" },
+        { "track": 8, "name": "Piensan", "duration": "03:00" },
+        { "track": 9, "name": "Playita", "duration": "03:25" },
+        { "track": 10, "name": "Mente Dañada", "duration": "03:50" },
+        { "track": 11, "name": "Ronca", "duration": "03:20" },
+        { "track": 12, "name": "Fiel", "duration": "03:10" },
+        { "track": 13, "name": "Ponte Pa Mi", "duration": "03:40" },
+        { "track": 14, "name": "LV", "duration": "03:05" },
+        { "track": 15, "name": "Relación Rompida", "duration": "03:30" },
+        { "track": 16, "name": "Nena", "duration": "03:15" },
+        { "track": 17, "name": "Triple S", "duration": "03:20" },
+        { "track": 18, "name": "Otro Nivel", "duration": "03:50" }
+      ]
+    },
+    {
       "id": "icy-hot-2021",
       "title": "Icy Hot (EP)",
       "year": "2021",
       "format": "EP",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734a9aae81e23c570d7b4317b7",
-      "color": "from-red-600/80",
+      "image": "https://cdn-images.dzcdn.net/images/cover/b6921f7748c7d3b3f9fc3e2f0ea1f7cb/500x500-000000-80-0-0.jpg",
+      "color": "from-red-600",
       "songsCount": 4,
       "tracklist": [
         { "track": 1, "name": "Hasta Abajo", "duration": "02:51" },
@@ -161,12 +321,26 @@
       ]
     },
     {
+      "id": "sweet-sour-2020",
+      "title": "Sweet & Sour (EP)",
+      "year": "2020",
+      "format": "EP",
+      "image": "https://cdn-images.dzcdn.net/images/cover/acdd91f43232ba69f47fd1c9a0909c0a/500x500-000000-80-0-0.jpg",
+      "color": "from-yellow-500",
+      "songsCount": 3,
+      "tracklist": [
+        { "track": 1, "name": "Pauta & Flow", "duration": "03:15" },
+        { "track": 2, "name": "Los Ángeles", "duration": "02:43" },
+        { "track": 3, "name": "El joseo", "duration": "03:50" }
+      ]
+    },
+    {
       "id": "cassette-01-2020",
       "title": "Cassette 01 (EP)",
       "year": "2020",
       "format": "EP",
-      "image": "https://i.scdn.co/image/ab67616d0000b273716152b1419ba36c922ca09c",
-      "color": "from-gray-700/80",
+      "image": "https://cdn-images.dzcdn.net/images/cover/21bbff6d17cac0a1ec96fe5a32a8dac5/500x500-000000-80-0-0.jpg",
+      "color": "from-gray-600",
       "songsCount": 5,
       "tracklist": [
         { "track": 1, "name": "Intro", "duration": "01:52" },
@@ -181,8 +355,8 @@
       "title": "Para Mi Ex (EP)",
       "year": "2020",
       "format": "EP",
-      "image": "https://i.scdn.co/image/ab67616d0000b273a59b6c0e7443417b60a3f092",
-      "color": "from-pink-800/80",
+      "image": "https://cdn-images.dzcdn.net/images/cover/85e6d70fee66269844c5f849b97093cb/500x500-000000-80-0-0.jpg",
+      "color": "from-pink-600",
       "songsCount": 4,
       "tracklist": [
         { "track": 1, "name": "Mi Ex", "duration": "03:07" },
@@ -195,9 +369,9 @@
       "id": "final-del-principio-2016",
       "title": "El Final del Principio",
       "year": "2016",
-      "format": "Álbum",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4a/9a/ae/4a9aae81-e23c-570d-7b43-17b7e400b790/19333.jpg/1000x1000bb.jpg",
-      "color": "from-orange-800/80",
+      "format": "Mixtape",
+      "image": "https://cdn-images.dzcdn.net/images/cover/fc793c7ea62cb0f4e67cdd6b798a111f/500x500-000000-80-0-0.jpg",
+      "color": "from-gray-800",
       "songsCount": 10,
       "tracklist": [
         { "track": 1, "name": "La Letra", "duration": "03:28" },
@@ -214,3 +388,4 @@
     }
   ]
 }
+

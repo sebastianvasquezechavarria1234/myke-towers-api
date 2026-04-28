@@ -61,9 +61,9 @@ app.get('/dynamic-albums', (req, res) => {
 app.get('/albums/:id/songs', (req, res) => {
     const db = getDB();
     const album = db.discography.find(a => a.id === req.params.id);
-    
+
     if (!album) return res.status(404).json({ error: "Álbum no encontrado" });
-    
+
     res.json({
         album: album.title,
         image: album.image,
