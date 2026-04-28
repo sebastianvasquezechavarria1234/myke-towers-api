@@ -2,38 +2,80 @@
   "socialWall": [
     { "id": 1, "type": "ig", "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/37/95/43/379543e3-5182-0199-4674-f25df3890288/19333.jpg/1000x1000bb.jpg", "size": "col-span-1 row-span-1" },
     { "id": 2, "type": "tt", "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/85/3c/55/853c5598-1a52-944a-f2a8-14022a101f3f/19333.jpg/1000x1000bb.jpg", "size": "col-span-1 row-span-2" },
-    { "id": 3, "type": "ig", "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/71/61/52/716152b1-419b-a36c-922c-a09c2560802c/19333.jpg/1000x1000bb.jpg", "size": "col-span-2 row-span-1" },
-    { "id": 4, "type": "ig", "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a5/9b/6c/a59b6c0e-7443-417b-60a3-f09257e84a8a/19333.jpg/1000x1000bb.jpg", "size": "col-span-1 row-span-1" }
+    { "id": 3, "type": "ig", "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/71/61/52/716152b1-419b-a36c-922c-a09c2560802c/19333.jpg/1000x1000bb.jpg", "size": "col-span-2 row-span-1" }
   ],
   "discography": [
     {
-      "id": "pantera-negra",
-      "title": "LA PANTERA NEGRA",
+      "id": "pantera-negra-deluxe",
+      "title": "LA PANTERA NEGRA (DELUXE)",
       "year": "2024",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/37/95/43/379543e3-5182-0199-4674-f25df3890288/19333.jpg/1000x1000bb.jpg",
-      "color": "from-neutral-900/90",
-      "songsCount": 20,
+      "color": "from-neutral-950/90",
+      "songsCount": 30,
       "tracklist": [
-        { "track": 1, "name": "Competencia", "duration": "3:02" },
-        { "track": 2, "name": "Otra Oportunidad", "duration": "3:15" },
-        { "track": 3, "name": "Aunque Llegue Otro (ft. Jay Wheeler)", "duration": "3:42" },
-        { "track": 4, "name": "Mejor Así", "duration": "2:58" },
-        { "track": 5, "name": "También", "duration": "3:10" },
-        { "track": 6, "name": "Frío", "duration": "2:45" },
-        { "track": 7, "name": "Caché", "duration": "3:05" },
-        { "track": 8, "name": "Sexo Desenfrenado", "duration": "3:20" },
-        { "track": 9, "name": "La Primera Vez (ft. NTG)", "duration": "3:15" },
-        { "track": 10, "name": "Poder Adquisitivo", "duration": "2:55" },
-        { "track": 11, "name": "Venenosa", "duration": "2:48" },
-        { "track": 12, "name": "Otra Noche (ft. Darell)", "duration": "3:30" },
-        { "track": 13, "name": "Se Te Nota (ft. Peso Pluma)", "duration": "3:12" },
-        { "track": 14, "name": "Hasta La Vista", "duration": "2:50" },
-        { "track": 15, "name": "Dinero y Fama (ft. Omar Montes)", "duration": "3:10" },
-        { "track": 16, "name": "En El Mar", "duration": "3:05" },
-        { "track": 17, "name": "Vamo A Darle (ft. Cosculluela)", "duration": "3:40" },
-        { "track": 18, "name": "Diablita (ft. YOVNGCHIMI)", "duration": "3:25" },
-        { "track": 19, "name": "Adivino (ft. Bad Bunny)", "duration": "4:24" },
-        { "track": 20, "name": "Hasta Luego", "duration": "2:58" }
+        { "track": 1, "name": "COMPETENCIA", "duration": "3:10" },
+        { "track": 2, "name": "OTRA OPORTUNIDAD", "duration": "2:49" },
+        { "track": 3, "name": "DEGENERE (ft. benny blanco)", "duration": "2:55" },
+        { "track": 4, "name": "MEJOR ASÍ", "duration": "3:39" },
+        { "track": 5, "name": "TAMBIÉN", "duration": "2:19" },
+        { "track": 6, "name": "NO TE VAYAS (ft. Juhn)", "duration": "3:12" },
+        { "track": 7, "name": "EL MOMENTO", "duration": "3:19" },
+        { "track": 8, "name": "FRÍO", "duration": "2:40" },
+        { "track": 9, "name": "CACHÉ", "duration": "3:16" },
+        { "track": 10, "name": "OTRO NIVEL (ft. Sech)", "duration": "3:05" },
+        { "track": 11, "name": "LO QUE QUIERAN CREER", "duration": "2:57" },
+        { "track": 12, "name": "SEXO DESENFRENADO", "duration": "4:03" },
+        { "track": 13, "name": "LA PRIMERA VEZ (ft. NTG)", "duration": "3:15" },
+        { "track": 14, "name": "PODER ADQUISITIVO", "duration": "3:01" },
+        { "track": 15, "name": "GEMIDOS", "duration": "3:34" },
+        { "track": 16, "name": "ESPERO QUE ESTÉS BIEN", "duration": "2:53" },
+        { "track": 17, "name": "HASTA LUEGO", "duration": "3:02" },
+        { "track": 18, "name": "OTRA NOCHE (ft. Darell)", "duration": "3:30" },
+        { "track": 19, "name": "HASTA LA VISTA", "duration": "2:54" },
+        { "track": 20, "name": "AUNQUE LLEGUE OTRO (ft. Jay Wheeler)", "duration": "3:42" },
+        { "track": 21, "name": "COMPATIBLES", "duration": "3:07" },
+        { "track": 22, "name": "SE TE NOTA (ft. Peso Pluma)", "duration": "3:12" },
+        { "track": 23, "name": "ADIVINO (with Bad Bunny)", "duration": "4:38" },
+        { "track": 24, "name": "EN EL MAR", "duration": "4:06" },
+        { "track": 25, "name": "VAMO A DARLE (ft. Cosculluela)", "duration": "3:40" },
+        { "track": 26, "name": "DINERO Y FAMA (ft. Omar Montes)", "duration": "3:10" },
+        { "track": 27, "name": "VENENOSA", "duration": "2:48" },
+        { "track": 28, "name": "PRIMER DÍA (ft. De La Ghetto & Maldy)", "duration": "3:35" },
+        { "track": 29, "name": "DIABLITA (ft. YOVNGCHIMI)", "duration": "3:25" },
+        { "track": 30, "name": "LAS PANTERAS", "duration": "3:15" }
+      ]
+    },
+    {
+      "id": "lyke-miike-2024",
+      "title": "LYKE MIIKE (2024)",
+      "year": "2024",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/37/95/43/379543e3-5182-0199-4674-f25df3890288/19333.jpg/1000x1000bb.jpg",
+      "color": "from-neutral-800/90",
+      "songsCount": 23,
+      "tracklist": [
+        { "track": 1, "name": "QUÉ QUIERES DE MÍ? (ft. Eladio Carrión)", "duration": "3:15" },
+        { "track": 2, "name": "DOS O TRES", "duration": "2:58" },
+        { "track": 3, "name": "VAN CLEEF (ft. Pirlo)", "duration": "3:05" },
+        { "track": 4, "name": "440", "duration": "2:48" },
+        { "track": 5, "name": "YO ESTARÉ", "duration": "3:12" },
+        { "track": 6, "name": "TRAP (ft. Jon Z)", "duration": "3:40" },
+        { "track": 7, "name": "EQUIPO DE BALOMPIÉ", "duration": "2:55" },
+        { "track": 8, "name": "MI BRILLO (ft. Akapellah)", "duration": "3:10" },
+        { "track": 9, "name": "REVERENDO", "duration": "2:45" },
+        { "track": 10, "name": "NUNCA ME QUEJÉ (ft. Neutro Shorty)", "duration": "3:20" },
+        { "track": 11, "name": "JOVEN OG (ft. Clarent & Miky Woodz)", "duration": "4:05" },
+        { "track": 12, "name": "NO ME DEJO VER", "duration": "2:58" },
+        { "track": 13, "name": "TO' LOS PODERES", "duration": "3:15" },
+        { "track": 14, "name": "BLOQUES Y CASERÍOS (ft. Dowba Montana)", "duration": "3:30" },
+        { "track": 15, "name": "CON ÉL", "duration": "2:50" },
+        { "track": 16, "name": "DE CAMINO", "duration": "3:05" },
+        { "track": 17, "name": "EN USTEDES", "duration": "3:12" },
+        { "track": 18, "name": "LA FUNDA", "duration": "2:55" },
+        { "track": 19, "name": "TÍTERES (ft. Pressure 9X19)", "duration": "3:08" },
+        { "track": 20, "name": "LOS DEPURO (ft. L-Gante)", "duration": "3:22" },
+        { "track": 21, "name": "NIGHTMARE", "duration": "2:45" },
+        { "track": 22, "name": "BILLY VAN", "duration": "3:01" },
+        { "track": 23, "name": "¿DÓNDE ESTÁN?", "duration": "3:40" }
       ]
     },
     {
@@ -70,7 +112,21 @@
       ]
     },
     {
-      "id": "lyke-mike",
+      "id": "icy-hot",
+      "title": "ICY HOT (EP)",
+      "year": "2023",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4a/9a/ae/4a9aae81-e23c-570d-7b43-17b7e400b790/19333.jpg/1000x1000bb.jpg",
+      "color": "from-red-600/60",
+      "songsCount": 4,
+      "tracklist": [
+        { "track": 1, "name": "Solo $exo", "duration": "3:12" },
+        { "track": 2, "name": "Gallery Dept.", "duration": "2:55" },
+        { "track": 3, "name": "En Nadie", "duration": "3:01" },
+        { "track": 4, "name": "Postre", "duration": "2:48" }
+      ]
+    },
+    {
+      "id": "lyke-mike-2021",
       "title": "LYKE MIKE",
       "year": "2021",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/71/61/52/716152b1-419b-a36c-922c-a09c2560802c/19333.jpg/1000x1000bb.jpg",
@@ -115,7 +171,7 @@
         { "track": 3, "name": "Parcerita", "duration": "3:19" },
         { "track": 4, "name": "Diosa", "duration": "3:34" },
         { "track": 5, "name": "Girl", "duration": "3:06" },
-        { "track": 6, "name": "Playa y Arena (ft. Pesca)", "duration": "3:15" },
+        { "track": 6, "name": "Playa y Arena", "duration": "3:15" },
         { "track": 7, "name": "Si Se Da", "duration": "3:44" },
         { "track": 8, "name": "La Curiosidad", "duration": "3:22" },
         { "track": 9, "name": "Piensan", "duration": "2:55" },
@@ -128,40 +184,6 @@
         { "track": 16, "name": "Memoria", "duration": "3:04" },
         { "track": 17, "name": "Mi Baby", "duration": "2:55" },
         { "track": 18, "name": "Easy Money Baby", "duration": "3:30" }
-      ]
-    },
-    {
-      "id": "para-mi-ex",
-      "title": "PARA MI EX (EP)",
-      "year": "2020",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a5/9b/6c/a59b6c0e-7443-417b-60a3-f09257e84a8a/19333.jpg/1000x1000bb.jpg",
-      "color": "from-pink-900/60",
-      "songsCount": 4,
-      "tracklist": [
-        { "track": 1, "name": "Explícito", "duration": "3:15" },
-        { "track": 2, "name": "Extasy", "duration": "3:02" },
-        { "track": 3, "name": "Bandido (ft. Juhn)", "duration": "3:52" },
-        { "track": 4, "name": "Solo Da", "duration": "3:10" }
-      ]
-    },
-    {
-      "id": "final-principio",
-      "title": "EL FINAL DEL PRINCIPIO",
-      "year": "2016",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4a/9a/ae/4a9aae81-e23c-570d-7b43-17b7e400b790/19333.jpg/1000x1000bb.jpg",
-      "color": "from-orange-900/60",
-      "songsCount": 10,
-      "tracklist": [
-        { "track": 1, "name": "Intro", "duration": "1:35" },
-        { "track": 2, "name": "Dinero", "duration": "2:14" },
-        { "track": 3, "name": "Amor Juvenil", "duration": "3:24" },
-        { "track": 4, "name": "Interludio", "duration": "3:19" },
-        { "track": 5, "name": "El Final del Principio", "duration": "3:34" },
-        { "track": 6, "name": "Coronamos", "duration": "3:12" },
-        { "track": 7, "name": "Déjate Ver", "duration": "2:55" },
-        { "track": 8, "name": "No Sabe Nada", "duration": "3:04" },
-        { "track": 9, "name": "Mordios", "duration": "3:15" },
-        { "track": 10, "name": "Habitación 69", "duration": "3:20" }
       ]
     }
   ]
