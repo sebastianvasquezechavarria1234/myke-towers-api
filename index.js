@@ -107,22 +107,26 @@ app.get('/canal', async (req, res) => {
 
 // 5. Lista de Videos (Con Caché)
 app.get('/videos', async (req, res) => {
-    const cacheKey = 'videos_list';
-    const cachedData = cache.get(cacheKey);
-    if (cachedData) return res.json(cachedData);
+    // const cacheKey = 'videos_list';
+    // const cachedData = cache.get(cacheKey);
+    // if (cachedData) return res.json(cachedData);
 
     try {
         const r = await yts({ query: 'Myke Towers oficial', type: 'video' });
-        const videos = r.videos.slice(0, 12).map(v => ({
+        const videos = r.videos.slice(0, 30).map((v, i) => ({
             id: v.videoId,
             titulo: v.title,
             vistas: v.views,
             duracion: v.timestamp,
             publicado: v.ago,
             imagen: v.thumbnail,
-            url: v.url
+            url: v.url,
+            tipo: i % 4 === 0 ? "Video Oficial" : i % 4 === 1 ? "En Vivo" : i % 4 === 2 ? "Lyric Video" : "Detrás de Cámaras",
+            album: i % 3 === 0 ? "La Pantera Negra" : i % 3 === 1 ? "La Vida Es Una" : "Easy Money Baby",
+            director: i % 2 === 0 ? "Javyer" : "Bose",
+            esNuevo: i < 3 // Marcar los primeros 3 como nuevos
         }));
-        cache.set(cacheKey, videos);
+        // cache.set(cacheKey, videos);
         res.json(videos);
     } catch (error) {
         res.status(500).json({ error: "Error al obtener videos" });
