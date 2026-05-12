@@ -208,8 +208,29 @@
       "color": "from-red-900",
       "songsCount": 23,
       "tracklist": [
-        { "track": 1, "name": "Mike 2 Intro", "duration": "03:20" },
-        { "track": 2, "name": "Young King Flow", "duration": "03:15" }
+        { "track": 1, "name": "QUÉ QUIERES DE MI? (feat. Eladio Carrión)", "duration": "04:14" },
+        { "track": 2, "name": "DOS O TRES", "duration": "03:30" },
+        { "track": 3, "name": "VAN CLEEF (feat. Pirlo)", "duration": "03:44" },
+        { "track": 4, "name": "440", "duration": "03:45" },
+        { "track": 5, "name": "YO ESTARÉ", "duration": "03:29" },
+        { "track": 6, "name": "TRAP (feat. Jon Z)", "duration": "03:15" },
+        { "track": 7, "name": "EQUIPO DE BALOMPIÉ", "duration": "03:20" },
+        { "track": 8, "name": "MI BRILLO (feat. Akapellah)", "duration": "03:32" },
+        { "track": 9, "name": "REVERENDO", "duration": "03:22" },
+        { "track": 10, "name": "NUNCA ME QUEJÉ (feat. Neutro Shorty)", "duration": "03:25" },
+        { "track": 11, "name": "JOVEN OG (feat. Clarent & Miky Woodz)", "duration": "04:06" },
+        { "track": 12, "name": "NO ME DEJO VER", "duration": "02:18" },
+        { "track": 13, "name": "TO' LOS PODERES", "duration": "02:36" },
+        { "track": 14, "name": "BLOQUES Y CASERÍOS (feat. Dowba Montana)", "duration": "02:59" },
+        { "track": 15, "name": "CON ÉL", "duration": "03:25" },
+        { "track": 16, "name": "DE CAMINO", "duration": "03:03" },
+        { "track": 17, "name": "EN USTEDES", "duration": "02:51" },
+        { "track": 18, "name": "LA FUNDA", "duration": "02:48" },
+        { "track": 19, "name": "TÍTERES (feat. Pressure 9X19)", "duration": "03:28" },
+        { "track": 20, "name": "LOS DEPURO (feat. L-Gante)", "duration": "03:10" },
+        { "track": 21, "name": "NIGHTMARE", "duration": "03:22" },
+        { "track": 22, "name": "BILLY VAN", "duration": "03:19" },
+        { "track": 23, "name": "DÓNDE ESTÁN?", "duration": "03:38" }
       ]
     },
     {
