@@ -320,19 +320,21 @@
       ]
     },
     {
-      "id": "cassette-01-2020",
+      "id": "cassette-01-2024",
       "title": "Cassette 01 (EP)",
-      "year": "2020",
+      "year": "2024",
       "format": "EP",
       "image": "https://cdn-images.dzcdn.net/images/cover/21bbff6d17cac0a1ec96fe5a32a8dac5/500x500-000000-80-0-0.jpg",
       "color": "from-gray-600",
-      "songsCount": 5,
+      "songsCount": 7,
       "tracklist": [
-        { "track": 1, "name": "Intro", "duration": "01:52" },
-        { "track": 2, "name": "Gym", "duration": "02:31" },
-        { "track": 3, "name": "Dámelo (feat. Akapellah)", "duration": "03:50" },
-        { "track": 4, "name": "Like Nacho", "duration": "04:01" },
-        { "track": 5, "name": "Somos Más", "duration": "03:05" }
+        { "track": 1, "name": "DESATAAA (feat. SAIKO)", "duration": "03:17" },
+        { "track": 2, "name": "GODIVA (feat. Blessd, Ryan Castro)", "duration": "03:39" },
+        { "track": 3, "name": "BELLAQUERIA (feat. La Joaqui)", "duration": "03:33" },
+        { "track": 4, "name": "AMOR NARCOTICO", "duration": "03:01" },
+        { "track": 5, "name": "POBRE DIABLA", "duration": "03:12" },
+        { "track": 6, "name": "TU CUERPO ME LLAMA", "duration": "02:28" },
+        { "track": 7, "name": "INTRO (TEASER)", "duration": "01:05" }
       ]
     },
     {
