@@ -176,24 +176,6 @@
       ]
     },
     {
-      "id": "cassette-01-2024",
-      "title": "Cassette 01 (EP)",
-      "year": "2024",
-      "format": "EP",
-      "image": "https://cdn-images.dzcdn.net/images/cover/21bbff6d17cac0a1ec96fe5a32a8dac5/500x500-000000-80-0-0.jpg",
-      "color": "from-gray-600",
-      "songsCount": 7,
-      "tracklist": [
-        { "track": 1, "name": "DESATAAA (feat. SAIKO)", "duration": "03:17" },
-        { "track": 2, "name": "GODIVA (feat. Blessd, Ryan Castro)", "duration": "03:39" },
-        { "track": 3, "name": "BELLAQUERIA (feat. La Joaqui)", "duration": "03:33" },
-        { "track": 4, "name": "AMOR NARCOTICO", "duration": "03:01" },
-        { "track": 5, "name": "POBRE DIABLA", "duration": "03:12" },
-        { "track": 6, "name": "TU CUERPO ME LLAMA", "duration": "02:28" },
-        { "track": 7, "name": "INTRO (TEASER)", "duration": "01:05" }
-      ]
-    },
-    {
       "id": "lyke-mike-2-2024",
       "title": "Lyke Mike 2",
       "year": "2024",
@@ -225,6 +207,24 @@
         { "track": 21, "name": "NIGHTMARE", "duration": "03:22" },
         { "track": 22, "name": "BILLY VAN", "duration": "03:19" },
         { "track": 23, "name": "DÓNDE ESTÁN?", "duration": "03:38" }
+      ]
+    },
+    {
+      "id": "cassette-01-2024",
+      "title": "Cassette 01 (EP)",
+      "year": "2024",
+      "format": "EP",
+      "image": "https://cdn-images.dzcdn.net/images/cover/21bbff6d17cac0a1ec96fe5a32a8dac5/500x500-000000-80-0-0.jpg",
+      "color": "from-gray-600",
+      "songsCount": 7,
+      "tracklist": [
+        { "track": 1, "name": "DESATAAA (feat. SAIKO)", "duration": "03:17" },
+        { "track": 2, "name": "GODIVA (feat. Blessd, Ryan Castro)", "duration": "03:39" },
+        { "track": 3, "name": "BELLAQUERIA (feat. La Joaqui)", "duration": "03:33" },
+        { "track": 4, "name": "AMOR NARCOTICO", "duration": "03:01" },
+        { "track": 5, "name": "POBRE DIABLA", "duration": "03:12" },
+        { "track": 6, "name": "TU CUERPO ME LLAMA", "duration": "02:28" },
+        { "track": 7, "name": "INTRO (TEASER)", "duration": "01:05" }
       ]
     },
     {
