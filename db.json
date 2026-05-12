@@ -4,7 +4,7 @@
     { "id": 2, "type": "video", "url": "https://v1.pinimg.com/videos/mc/720p/cc/6d/b1/cc6db113712df9844b41e6e8072a2623.mp4", "size": "col-span-1 row-span-1" },
     { "id": 3, "type": "ig", "url": "https://i.pinimg.com/1200x/30/cc/33/30cc33eeef3e44a6aa53e4106e44bf10.jpg", "size": "col-span-1 row-span-2" },
     { "id": 4, "type": "ig", "url": "https://i.pinimg.com/1200x/6b/09/32/6b0932048bb94ec4a93ff03d9a4a19df.jpg", "size": "col-span-2 row-span-1" },
-    { "id":5, "type": "ig", "url": "https://i.pinimg.com/736x/19/1d/a8/191da8853f0d3ec2f4292409e903f3d1.jpg", "size": "col-span-1 row-span-1" },
+    { "id": 5, "type": "ig", "url": "https://i.pinimg.com/736x/19/1d/a8/191da8853f0d3ec2f4292409e903f3d1.jpg", "size": "col-span-1 row-span-1" },
     { "id": 6, "type": "ig", "url": "https://i.pinimg.com/736x/21/f7/07/21f707918a8de6fede3f66ee239f4d2e.jpg", "size": "col-span-1 row-span-1" },
     { "id": 7, "type": "ig", "url": "https://i.pinimg.com/736x/84/c3/9b/84c39bee5dcf89dc6718ab12b88542fa.jpg", "size": "col-span-2 row-span-2" },
     { "id": 8, "type": "ig", "url": "https://i.pinimg.com/736x/0a/ce/90/0ace903aa205155c5e6af7769cb7bb79.jpg", "size": "col-span-1 row-span-1" },
@@ -49,6 +49,55 @@
         { "track": 21, "name": "100 COPAS", "duration": "03:28" },
         { "track": 22, "name": "MONÓTONO", "duration": "03:09" },
         { "track": 23, "name": "ISLA", "duration": "02:47" }
+      ]
+    },
+    {
+      "id": "lyke-mike-2-deluxe-2025",
+      "title": "Lyke Mike 2 (Deluxe)",
+      "year": "2025",
+      "format": "Álbum (Deluxe)",
+      "description": "El reggaetón y el pop de Myke Towers están bien, pero sus fans originales, que están ahí desde la época de SoundCloud, quieren rap, quieren trap, quieren barras. Ese fue el espíritu de LYKE MIKE, en 2021, y el de LYKE MIKE 2, que llegó en la nochebuena de 2024. Mike como Jordan, como Jackson, como Tyson. Como Towers ataca de nuevo, esta vez con el deluxe de LYKE MIKE 2. Temas como *SKYDWELLER* o *TOP TIER* destacan por el ímpetu de sus relatos callejeros: más que un cantante, se desliza con la fuerza y la gracia de un atleta de alto rendimiento, un basquetbolista que ataca el aro sin piedad. Y en el resto de las diez canciones adicionales, el boricua juega con distintos registros. *3 AM* y *DIME A VER* se empapan en el trap sudoroso, *AGUA* exhibe las habilidades de Myke para el dembow dominicano y *SUELTA*, con Omar Courtz, retoma el reggaetón con el que ha conquistado al mundo: el hambre de sus comienzos con trucos nuevos de un hombre que, cual tiburón, nunca deja de moverse.",
+      "image": "https://cdn-images.dzcdn.net/images/cover/5fa8173844e5a5206e2ae9708ed2350d/500x500-000000-80-0-0.jpg",
+      "color": "from-red-900",
+      "songsCount": 37,
+      "tracklist": [
+        { "track": 1, "name": "3 AM", "duration": "03:17" },
+        { "track": 2, "name": "AGUA (feat. Chocoleyirol)", "duration": "02:55" },
+        { "track": 3, "name": "TOP TIER", "duration": "03:18" },
+        { "track": 4, "name": "YE", "duration": "02:27" },
+        { "track": 5, "name": "REACIO", "duration": "03:56" },
+        { "track": 6, "name": "DIME A VER", "duration": "04:04" },
+        { "track": 7, "name": "MÓNTATE BABY (feat. De La Rose)", "duration": "03:25" },
+        { "track": 8, "name": "SKYDWELLER (feat. CDobleta)", "duration": "03:58" },
+        { "track": 9, "name": "TONO DE VOZ", "duration": "03:32" },
+        { "track": 10, "name": "SOPHIE RAIN", "duration": "03:09" },
+        { "track": 11, "name": "PROTAGONISTA", "duration": "02:41" },
+        { "track": 12, "name": "SUBASTA", "duration": "03:26" },
+        { "track": 13, "name": "QUE SEAS FELIZ", "duration": "04:19" },
+        { "track": 14, "name": "SUELTA (feat. Omar Courtz)", "duration": "03:25" },
+        { "track": 15, "name": "QUÉ QUIERES DE MI? (feat. Eladio Carrión)", "duration": "04:14" },
+        { "track": 16, "name": "DOS O TRES", "duration": "03:30" },
+        { "track": 17, "name": "VAN CLEEF (feat. Pirlo)", "duration": "03:44" },
+        { "track": 18, "name": "440", "duration": "03:45" },
+        { "track": 19, "name": "YO ESTARÉ", "duration": "03:29" },
+        { "track": 20, "name": "TRAP (feat. Jon Z)", "duration": "03:43" },
+        { "track": 21, "name": "EQUIPO DE BALOMPIÉ", "duration": "03:20" },
+        { "track": 22, "name": "MI BRILLO (feat. Akapellah)", "duration": "03:32" },
+        { "track": 23, "name": "REVERENDO", "duration": "03:22" },
+        { "track": 24, "name": "NUNCA ME QUEJÉ (feat. Neutro Shorty)", "duration": "03:25" },
+        { "track": 25, "name": "JOVEN OG (feat. Clarent, Miky Woodz)", "duration": "04:06" },
+        { "track": 26, "name": "NO ME DEJO VER", "duration": "02:18" },
+        { "track": 27, "name": "TO' LOS PODERES", "duration": "02:36" },
+        { "track": 28, "name": "BLOQUES Y CASERÍOS (feat. Dowba Montana)", "duration": "02:59" },
+        { "track": 29, "name": "CON ÉL", "duration": "03:25" },
+        { "track": 30, "name": "DE CAMINO", "duration": "03:03" },
+        { "track": 31, "name": "EN USTEDES", "duration": "02:51" },
+        { "track": 32, "name": "LA FUNDA", "duration": "02:48" },
+        { "track": 33, "name": "TÍTERES (feat. Pressure 9X19)", "duration": "03:28" },
+        { "track": 34, "name": "LOS DEPURO (feat. L-Gante)", "duration": "03:10" },
+        { "track": 35, "name": "NIGHTMARE", "duration": "03:22" },
+        { "track": 36, "name": "BILLY VAN", "duration": "03:19" },
+        { "track": 37, "name": "DÓNDE ESTÁN?", "duration": "03:38" }
       ]
     },
     {
@@ -127,6 +176,58 @@
       ]
     },
     {
+      "id": "cassette-01-2024",
+      "title": "Cassette 01 (EP)",
+      "year": "2024",
+      "format": "EP",
+      "image": "https://cdn-images.dzcdn.net/images/cover/21bbff6d17cac0a1ec96fe5a32a8dac5/500x500-000000-80-0-0.jpg",
+      "color": "from-gray-600",
+      "songsCount": 7,
+      "tracklist": [
+        { "track": 1, "name": "DESATAAA (feat. SAIKO)", "duration": "03:17" },
+        { "track": 2, "name": "GODIVA (feat. Blessd, Ryan Castro)", "duration": "03:39" },
+        { "track": 3, "name": "BELLAQUERIA (feat. La Joaqui)", "duration": "03:33" },
+        { "track": 4, "name": "AMOR NARCOTICO", "duration": "03:01" },
+        { "track": 5, "name": "POBRE DIABLA", "duration": "03:12" },
+        { "track": 6, "name": "TU CUERPO ME LLAMA", "duration": "02:28" },
+        { "track": 7, "name": "INTRO (TEASER)", "duration": "01:05" }
+      ]
+    },
+    {
+      "id": "lyke-mike-2-2024",
+      "title": "Lyke Mike 2",
+      "year": "2024",
+      "format": "Álbum de Estudio",
+      "image": "https://cdn-images.dzcdn.net/images/cover/9b13a9a9de489eb98fde2f3dc8e9d08e/500x500-000000-80-0-0.jpg",
+      "color": "from-red-900",
+      "songsCount": 23,
+      "tracklist": [
+        { "track": 1, "name": "QUÉ QUIERES DE MI? (feat. Eladio Carrión)", "duration": "04:14" },
+        { "track": 2, "name": "DOS O TRES", "duration": "03:30" },
+        { "track": 3, "name": "VAN CLEEF (feat. Pirlo)", "duration": "03:44" },
+        { "track": 4, "name": "440", "duration": "03:45" },
+        { "track": 5, "name": "YO ESTARÉ", "duration": "03:29" },
+        { "track": 6, "name": "TRAP (feat. Jon Z)", "duration": "03:15" },
+        { "track": 7, "name": "EQUIPO DE BALOMPIÉ", "duration": "03:20" },
+        { "track": 8, "name": "MI BRILLO (feat. Akapellah)", "duration": "03:32" },
+        { "track": 9, "name": "REVERENDO", "duration": "03:22" },
+        { "track": 10, "name": "NUNCA ME QUEJÉ (feat. Neutro Shorty)", "duration": "03:25" },
+        { "track": 11, "name": "JOVEN OG (feat. Clarent & Miky Woodz)", "duration": "04:06" },
+        { "track": 12, "name": "NO ME DEJO VER", "duration": "02:18" },
+        { "track": 13, "name": "TO' LOS PODERES", "duration": "02:36" },
+        { "track": 14, "name": "BLOQUES Y CASERÍOS (feat. Dowba Montana)", "duration": "02:59" },
+        { "track": 15, "name": "CON ÉL", "duration": "03:25" },
+        { "track": 16, "name": "DE CAMINO", "duration": "03:03" },
+        { "track": 17, "name": "EN USTEDES", "duration": "02:51" },
+        { "track": 18, "name": "LA FUNDA", "duration": "02:48" },
+        { "track": 19, "name": "TÍTERES (feat. Pressure 9X19)", "duration": "03:28" },
+        { "track": 20, "name": "LOS DEPURO (feat. L-Gante)", "duration": "03:10" },
+        { "track": 21, "name": "NIGHTMARE", "duration": "03:22" },
+        { "track": 22, "name": "BILLY VAN", "duration": "03:19" },
+        { "track": 23, "name": "DÓNDE ESTÁN?", "duration": "03:38" }
+      ]
+    },
+    {
       "id": "vive-la-tuya-2023",
       "title": "LVEU: VIVE LA TUYA...NO LA MIA",
       "year": "2023",
@@ -158,6 +259,35 @@
         { "track": 21, "name": "LALA", "duration": "03:17" },
         { "track": 22, "name": "ALOHA", "duration": "02:54" },
         { "track": 23, "name": "LA RONDA", "duration": "03:29" }
+      ]
+    },
+    {
+      "id": "icy-hot-2023",
+      "title": "Icy Hot (EP)",
+      "year": "2023",
+      "format": "EP",
+      "image": "https://cdn-images.dzcdn.net/images/cover/b6921f7748c7d3b3f9fc3e2f0ea1f7cb/500x500-000000-80-0-0.jpg",
+      "color": "from-red-600",
+      "songsCount": 4,
+      "tracklist": [
+        { "track": 1, "name": "Solo $exo", "duration": "03:09" },
+        { "track": 2, "name": "Gallery Dept.", "duration": "03:20" },
+        { "track": 3, "name": "En Nadie", "duration": "03:53" },
+        { "track": 4, "name": "Postre", "duration": "03:41" }
+      ]
+    },
+    {
+      "id": "sweet-sour-2023",
+      "title": "Sweet & Sour (EP)",
+      "year": "2023",
+      "format": "EP",
+      "image": "https://cdn-images.dzcdn.net/images/cover/acdd91f43232ba69f47fd1c9a0909c0a/500x500-000000-80-0-0.jpg",
+      "color": "from-yellow-500",
+      "songsCount": 3,
+      "tracklist": [
+        { "track": 1, "name": "Pauta & Flow", "duration": "03:15" },
+        { "track": 2, "name": "Los Ángeles", "duration": "02:43" },
+        { "track": 3, "name": "El joseo", "duration": "03:50" }
       ]
     },
     {
@@ -196,94 +326,11 @@
       ]
     },
     {
-      "id": "lyke-mike-2-deluxe-2025",
-      "title": "Lyke Mike 2 (Deluxe)",
-      "year": "2025",
-      "format": "Álbum (Deluxe)",
-      "description": "El reggaetón y el pop de Myke Towers están bien, pero sus fans originales, que están ahí desde la época de SoundCloud, quieren rap, quieren trap, quieren barras. Ese fue el espíritu de LYKE MIKE, en 2021, y el de LYKE MIKE 2, que llegó en la nochebuena de 2024. Mike como Jordan, como Jackson, como Tyson. Como Towers ataca de nuevo, esta vez con el deluxe de LYKE MIKE 2. Temas como *SKYDWELLER* o *TOP TIER* destacan por el ímpetu de sus relatos callejeros: más que un cantante, se desliza con la fuerza y la gracia de un atleta de alto rendimiento, un basquetbolista que ataca el aro sin piedad. Y en el resto de las diez canciones adicionales, el boricua juega con distintos registros. *3 AM* y *DIME A VER* se empapan en el trap sudoroso, *AGUA* exhibe las habilidades de Myke para el dembow dominicano y *SUELTA*, con Omar Courtz, retoma el reggaetón con el que ha conquistado al mundo: el hambre de sus comienzos con trucos nuevos de un hombre que, cual tiburón, nunca deja de moverse.",
-      "image": "https://cdn-images.dzcdn.net/images/cover/5fa8173844e5a5206e2ae9708ed2350d/500x500-000000-80-0-0.jpg",
-      "color": "from-red-900",
-      "songsCount": 37,
-      "tracklist": [
-        { "track": 1, "name": "3 AM", "duration": "03:17" },
-        { "track": 2, "name": "AGUA (feat. Chocoleyirol)", "duration": "02:55" },
-        { "track": 3, "name": "TOP TIER", "duration": "03:18" },
-        { "track": 4, "name": "YE", "duration": "02:27" },
-        { "track": 5, "name": "REACIO", "duration": "03:56" },
-        { "track": 6, "name": "DIME A VER", "duration": "04:04" },
-        { "track": 7, "name": "MÓNTATE BABY (feat. De La Rose)", "duration": "03:25" },
-        { "track": 8, "name": "SKYDWELLER (feat. CDobleta)", "duration": "03:58" },
-        { "track": 9, "name": "TONO DE VOZ", "duration": "03:32" },
-        { "track": 10, "name": "SOPHIE RAIN", "duration": "03:09" },
-        { "track": 11, "name": "PROTAGONISTA", "duration": "02:41" },
-        { "track": 12, "name": "SUBASTA", "duration": "03:26" },
-        { "track": 13, "name": "QUE SEAS FELIZ", "duration": "04:19" },
-        { "track": 14, "name": "SUELTA (feat. Omar Courtz)", "duration": "03:25" },
-        { "track": 15, "name": "QUÉ QUIERES DE MI? (feat. Eladio Carrión)", "duration": "04:14" },
-        { "track": 16, "name": "DOS O TRES", "duration": "03:30" },
-        { "track": 17, "name": "VAN CLEEF (feat. Pirlo)", "duration": "03:44" },
-        { "track": 18, "name": "440", "duration": "03:45" },
-        { "track": 19, "name": "YO ESTARÉ", "duration": "03:29" },
-        { "track": 20, "name": "TRAP (feat. Jon Z)", "duration": "03:43" },
-        { "track": 21, "name": "EQUIPO DE BALOMPIÉ", "duration": "03:20" },
-        { "track": 22, "name": "MI BRILLO (feat. Akapellah)", "duration": "03:32" },
-        { "track": 23, "name": "REVERENDO", "duration": "03:22" },
-        { "track": 24, "name": "NUNCA ME QUEJÉ (feat. Neutro Shorty)", "duration": "03:25" },
-        { "track": 25, "name": "JOVEN OG (feat. Clarent, Miky Woodz)", "duration": "04:06" },
-        { "track": 26, "name": "NO ME DEJO VER", "duration": "02:18" },
-        { "track": 27, "name": "TO' LOS PODERES", "duration": "02:36" },
-        { "track": 28, "name": "BLOQUES Y CASERÍOS (feat. Dowba Montana)", "duration": "02:59" },
-        { "track": 29, "name": "CON ÉL", "duration": "03:25" },
-        { "track": 30, "name": "DE CAMINO", "duration": "03:03" },
-        { "track": 31, "name": "EN USTEDES", "duration": "02:51" },
-        { "track": 32, "name": "LA FUNDA", "duration": "02:48" },
-        { "track": 33, "name": "TÍTERES (feat. Pressure 9X19)", "duration": "03:28" },
-        { "track": 34, "name": "LOS DEPURO (feat. L-Gante)", "duration": "03:10" },
-        { "track": 35, "name": "NIGHTMARE", "duration": "03:22" },
-        { "track": 36, "name": "BILLY VAN", "duration": "03:19" },
-        { "track": 37, "name": "DÓNDE ESTÁN?", "duration": "03:38" }
-      ]
-    },
-    {
-      "id": "lyke-mike-2-2024",
-      "title": "Lyke Mike 2",
-      "year": "2024",
-      "format": "Álbum de Estudio",
-      "image": "https://cdn-images.dzcdn.net/images/cover/9b13a9a9de489eb98fde2f3dc8e9d08e/500x500-000000-80-0-0.jpg",
-      "color": "from-red-900",
-      "songsCount": 23,
-      "tracklist": [
-        { "track": 1, "name": "QUÉ QUIERES DE MI? (feat. Eladio Carrión)", "duration": "04:14" },
-        { "track": 2, "name": "DOS O TRES", "duration": "03:30" },
-        { "track": 3, "name": "VAN CLEEF (feat. Pirlo)", "duration": "03:44" },
-        { "track": 4, "name": "440", "duration": "03:45" },
-        { "track": 5, "name": "YO ESTARÉ", "duration": "03:29" },
-        { "track": 6, "name": "TRAP (feat. Jon Z)", "duration": "03:15" },
-        { "track": 7, "name": "EQUIPO DE BALOMPIÉ", "duration": "03:20" },
-        { "track": 8, "name": "MI BRILLO (feat. Akapellah)", "duration": "03:32" },
-        { "track": 9, "name": "REVERENDO", "duration": "03:22" },
-        { "track": 10, "name": "NUNCA ME QUEJÉ (feat. Neutro Shorty)", "duration": "03:25" },
-        { "track": 11, "name": "JOVEN OG (feat. Clarent & Miky Woodz)", "duration": "04:06" },
-        { "track": 12, "name": "NO ME DEJO VER", "duration": "02:18" },
-        { "track": 13, "name": "TO' LOS PODERES", "duration": "02:36" },
-        { "track": 14, "name": "BLOQUES Y CASERÍOS (feat. Dowba Montana)", "duration": "02:59" },
-        { "track": 15, "name": "CON ÉL", "duration": "03:25" },
-        { "track": 16, "name": "DE CAMINO", "duration": "03:03" },
-        { "track": 17, "name": "EN USTEDES", "duration": "02:51" },
-        { "track": 18, "name": "LA FUNDA", "duration": "02:48" },
-        { "track": 19, "name": "TÍTERES (feat. Pressure 9X19)", "duration": "03:28" },
-        { "track": 20, "name": "LOS DEPURO (feat. L-Gante)", "duration": "03:10" },
-        { "track": 21, "name": "NIGHTMARE", "duration": "03:22" },
-        { "track": 22, "name": "BILLY VAN", "duration": "03:19" },
-        { "track": 23, "name": "DÓNDE ESTÁN?", "duration": "03:38" }
-      ]
-    },
-    {
       "id": "lyke-mike-2021",
       "title": "Lyke Mike",
       "year": "2021",
       "format": "Álbum de Estudio",
-      "description": "\"Es el Myke de antes, vuelvo al rapeo y las barras\", dice Myke Towers a El Gurú en La Fórmula de Apple Music Radio sobre su nuevo álbum. \"Lo que quiero es contar mi historia, no historias bonitas\". Lyke Myke nos trae a un Towers más cercano a sus orígenes en el hip-hop callejero que a los ecos de pop urbano que hicieron de Easy Money Baby una propuesta más accesible. \"Hay dos Mykes, el comercial y el que rapea\", explica, \"y este es un álbum para la calle\". Las 23 canciones de Lyke Myke (un número que no es el único guiño a su idolatrado Michael Jordan) nacen de un confinamiento especialmente productivo para la estrella puertorriqueña. La explosiva colaboración con Ñengo Flow en \"BURBERRY\" y los versos de afilada inspiración de \"Cuenta\" son sólo la punta del iceberg de un proyecto de largo recorrido. \"Tengo los pies en la tierra, pero sé que nací para esto\", concluye.",
+      "description": "\"Es el Myke de antes, vuelvo al rapeo y las barras\", dice Myke Towers a El Gurú en La Fórmula de Apple Music Radio sobre su nuevo álbum. \"Lo que quiero es contar mi historia, no historias bonitas\". Lyke Myke nos trae a un Towers más cercano a sus orígenes en el hip-hop callejero que a los ecos de pop urbano que hicieron de Easy Money Baby una propuesta más accesible. \"Hay dos Mykes, el comercial y el que rapea\", explica, \"y este es un álbum para la calle\". Las 23 canciones de Lyke Myke (un número que no es el único guiño a su idolatrado Michael Jordan) nacen de un confinamiento especialmente productivo para la estrella puertorriqueña. La explosiva colaboración con Ñengo Flow en \"BURBERRY\" y los versos de afilada inspiration de \"Cuenta\" son sólo la punta del iceberg de un proyecto de largo recorrido. \"Tengo los pies en la tierra, pero sé que nací para esto\", concluye.",
       "image": "https://cdn-images.dzcdn.net/images/cover/ae0915cad352581464d954b80f6fcc15/500x500-000000-80-0-0.jpg",
       "color": "from-red-900",
       "songsCount": 23,
@@ -311,21 +358,6 @@
         { "track": 21, "name": "BAGUETTES", "duration": "02:49" },
         { "track": 22, "name": "NIVELES", "duration": "02:36" },
         { "track": 23, "name": "MALDITA ENVIDIA", "duration": "02:45" }
-      ]
-    },
-    {
-      "id": "icy-hot-2023",
-      "title": "Icy Hot (EP)",
-      "year": "2023",
-      "format": "EP",
-      "image": "https://cdn-images.dzcdn.net/images/cover/b6921f7748c7d3b3f9fc3e2f0ea1f7cb/500x500-000000-80-0-0.jpg",
-      "color": "from-red-600",
-      "songsCount": 4,
-      "tracklist": [
-        { "track": 1, "name": "Solo $exo", "duration": "03:09" },
-        { "track": 2, "name": "Gallery Dept.", "duration": "03:20" },
-        { "track": 3, "name": "En Nadie", "duration": "03:53" },
-        { "track": 4, "name": "Postre", "duration": "03:41" }
       ]
     },
     {
@@ -370,38 +402,6 @@
         { "track": 2, "name": "Explícito", "duration": "03:15" },
         { "track": 3, "name": "Extasy", "duration": "03:07" },
         { "track": 4, "name": "Bandido", "duration": "03:52" }
-      ]
-    },
-    {
-      "id": "sweet-sour-2023",
-      "title": "Sweet & Sour (EP)",
-      "year": "2023",
-      "format": "EP",
-      "image": "https://cdn-images.dzcdn.net/images/cover/acdd91f43232ba69f47fd1c9a0909c0a/500x500-000000-80-0-0.jpg",
-      "color": "from-yellow-500",
-      "songsCount": 3,
-      "tracklist": [
-        { "track": 1, "name": "Pauta & Flow", "duration": "03:15" },
-        { "track": 2, "name": "Los Ángeles", "duration": "02:43" },
-        { "track": 3, "name": "El joseo", "duration": "03:50" }
-      ]
-    },
-    {
-      "id": "cassette-01-2024",
-      "title": "Cassette 01 (EP)",
-      "year": "2024",
-      "format": "EP",
-      "image": "https://cdn-images.dzcdn.net/images/cover/21bbff6d17cac0a1ec96fe5a32a8dac5/500x500-000000-80-0-0.jpg",
-      "color": "from-gray-600",
-      "songsCount": 7,
-      "tracklist": [
-        { "track": 1, "name": "DESATAAA (feat. SAIKO)", "duration": "03:17" },
-        { "track": 2, "name": "GODIVA (feat. Blessd, Ryan Castro)", "duration": "03:39" },
-        { "track": 3, "name": "BELLAQUERIA (feat. La Joaqui)", "duration": "03:33" },
-        { "track": 4, "name": "AMOR NARCOTICO", "duration": "03:01" },
-        { "track": 5, "name": "POBRE DIABLA", "duration": "03:12" },
-        { "track": 6, "name": "TU CUERPO ME LLAMA", "duration": "02:28" },
-        { "track": 7, "name": "INTRO (TEASER)", "duration": "01:05" }
       ]
     },
     {
