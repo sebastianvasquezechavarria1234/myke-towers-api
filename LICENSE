@@ -1,0 +1,40 @@
+MIT License
+
+Copyright (c) 2026 Sebastian Vasquez Echavarria
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+This backend API is publicly open and free to access.
+Anyone is welcome to consume, integrate, fork, or build upon this project
+for personal, educational, or commercial purposes — no permission required.
+
+Public API Base URL: https://myke-towers-api.onrender.com
+
+Endpoints available to everyone:
+  GET /           - API welcome and endpoint index
+  GET /historia   - Myke Towers biography and personal data
+  GET /stats      - Career statistics and highlights
+  GET /canal      - Official YouTube channel data
+  GET /videos     - Top 30 YouTube videos with metadata
+  GET /social     - Social wall posts and media
+  GET /albums     - Full discography (albums, EPs, mixtapes)
+  GET /albums/:id/songs - Track listing for a specific album
+  GET /dynamic-albums   - Real-time iTunes discography sync
