@@ -184,6 +184,26 @@ app.get('/dynamic-albums', async (req, res) => {
     }
 });
 
+// 10. Hidden Health Check Endpoint (to keep API awake)
+app.get('/healthcheck', (req, res) => {
+    res.status(200).json({ status: "alive", timestamp: new Date() });
+});
+
+// Auto-ping logic to prevent the app from idling on Render in production
+const PUBLIC_URL = process.env.RENDER_EXTERNAL_URL;
+if (PUBLIC_URL) {
+    console.log(`🤖 Modo producción detectado. URL pública: ${PUBLIC_URL}`);
+    // Realizar un ping al endpoint oculto cada 10 minutos (600,000 ms)
+    setInterval(async () => {
+        try {
+            const response = await axios.get(`${PUBLIC_URL}/healthcheck`);
+            console.log(`⚡ Ping automático de mantenimiento: ${response.data.status} (${response.data.timestamp})`);
+        } catch (error) {
+            console.error('❌ Error en el auto-ping de mantenimiento:', error.message);
+        }
+    }, 10 * 60 * 1000);
+}
+
 app.listen(PORT, () => {
     console.log(`🚀 API Profesional de Myke Towers activa en http://localhost:${PORT}`);
 });
