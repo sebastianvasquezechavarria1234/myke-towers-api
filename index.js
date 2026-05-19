@@ -11,6 +11,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
+app.set('json spaces', 2); // Prettify and indent JSON responses with 2 spaces
 const cache = new NodeCache({ stdTTL: 3600 }); // Caché de 1 hora
 const PORT = process.env.PORT || 3000;
 
